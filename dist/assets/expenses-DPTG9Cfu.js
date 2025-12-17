@@ -1,1 +1,0 @@
-import{s as n}from"./index-CXM7zIvA.js";async function a(){return await n("/expenses")}async function i(e){return await n("/expenses",{method:"POST",body:JSON.stringify(e)})}async function r(e,s){return await n(`/expenses/${e}`,{method:"PUT",body:JSON.stringify(s)})}async function o(e){return await n(`/expenses/${e}`,{method:"DELETE"}),!0}export{i as c,o as d,a as l,r as u};
