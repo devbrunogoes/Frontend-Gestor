@@ -1,0 +1,15 @@
+/* Estilos específicos para o módulo Metas & Performance */
+.metas-grid { display:grid; grid-template-columns: 320px 1fr; gap:16px; }
+.metas-grid .panel { padding:16px; background:#fff; border-radius:6px; }
+.metas-grid .indicators { display:flex; gap:12px; }
+.metas-grid .indicator { flex:1; background:#f7f9fc; padding:12px; border-radius:6px; text-align:center; }
+.metas-grid .indicator h4 { margin:0 0 6px 0; font-size:14px; color:#666; }
+.metas-grid .indicator p { margin:0; font-size:18px; font-weight:700; }
+.data-table { width:100%; border-collapse:collapse; margin-top:8px; }
+.data-table th, .data-table td { border:1px solid #e6e6e6; padding:8px; text-align:left; }
+.form-actions { display:flex; gap:8px; margin-top:8px; }
+.btn.secondary { background:#777; color:#fff; }
+
+@media (max-width: 900px) {
+  .metas-grid { grid-template-columns: 1fr; }
+}

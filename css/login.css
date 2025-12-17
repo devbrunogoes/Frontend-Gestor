@@ -1,0 +1,25 @@
+/* Estilos específicos para a página de login */
+:root{
+  --bg:#f1f5f9;
+  --card:#ffffff;
+  --primary:#0d6efd;
+  --muted:#6b7280;
+}
+html,body{height:100%;}
+body{margin:0;background:linear-gradient(180deg, #eef2ff 0%, var(--bg) 100%);font-family:Inter, Arial, sans-serif;display:flex;align-items:center;justify-content:center}
+.login-wrapper{width:100%;max-width:420px;padding:24px}
+.login-card{background:var(--card);border-radius:12px;box-shadow:0 8px 30px rgba(13,110,253,0.08);padding:28px;display:flex;flex-direction:column;gap:12px}
+.login-logo{display:flex;align-items:center;justify-content:center;height:72px;width:72px;border-radius:50%;background:linear-gradient(135deg, rgba(13,110,253,0.12), rgba(13,110,253,0.06));margin:0 auto}
+.login-card h2{margin:0;text-align:center;color:#0f172a;font-size:20px}
+.login-card p.lead{margin:0;text-align:center;color:var(--muted);font-size:13px}
+.form-group{display:flex;flex-direction:column;gap:6px}
+.form-group label{font-size:13px;color:var(--muted)}
+.form-control{padding:10px 12px;border-radius:8px;border:1px solid #e6e9ef;font-size:14px}
+.form-control:focus{outline:none;box-shadow:0 0 0 4px rgba(13,110,253,0.06);border-color:var(--primary)}
+.btn{display:inline-flex;align-items:center;gap:8px;justify-content:center;padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
+.btn-success{background:var(--primary);color:#fff}
+.btn-success:hover{filter:brightness(0.98)}
+.login-links{text-align:center;margin-top:6px}
+.login-links a{color:var(--muted);font-size:13px;text-decoration:none}
+.login-error{display:none;background:#fff3f2;border:1px solid #f3c2be;color:#842029;padding:8px;border-radius:8px;text-align:center}
+@media (max-width:520px){.login-wrapper{padding:12px}.login-card{padding:18px}}

@@ -1,0 +1,1 @@
+import{s}from"./index-CXM7zIvA.js";async function e(){const t=await s("/settings");return t&&typeof t=="object"?t:{}}async function i(t){return await s("/settings",{method:"PUT",body:JSON.stringify(t)})}export{e as g,i as s};

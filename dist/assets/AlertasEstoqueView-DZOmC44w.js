@@ -1,0 +1,1 @@
+import{_ as o,a as s,b as n,f as t}from"./index-CXM7zIvA.js";const a={},r={class:"content-area"};function c(l,e){return n(),s("section",r,[...e[0]||(e[0]=[t("h2",null,"Alertas de Estoque",-1),t("p",null,"Conteúdo em migração.",-1)])])}const d=o(a,[["render",c]]);export{d as default};
